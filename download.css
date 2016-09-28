@@ -1,0 +1,567 @@
+@font-face {
+  font-family: 'Fonttalis';
+  src: url('eb3cdc28.eot');
+  src: url('eb3cdc28.eot?#iefix') format('embedded-opentype'),
+       url('eb3cdc28.woff') format('woff'),
+       url('eb3cdc28.ttf') format('truetype'),
+       url('eb3cdc28.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+
+.fa {
+    display: inline-block;
+    font: normal normal normal 14px/1 'Fonttalis';
+    font-size: inherit;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+ .fa-lg {
+    font-size: 1.33333333em;
+    line-height: 0.75em;
+    vertical-align: -15%;
+}
+
+.fa-2x {
+    font-size: 2em;
+}
+
+.fa-3x {
+    font-size: 3em;
+}
+
+.fa-4x {
+    font-size: 4em;
+}
+
+.fa-5x {
+    font-size: 5em;
+}
+
+  .fa-fw {
+    width: 1.28571429em;
+    text-align: center;
+}
+
+  .fa-ul {
+    padding-left: 0;
+    margin-left: 2.14285714em;
+    list-style-type: none;
+}
+
+.fa-ul> li {
+    position: relative;
+}
+
+.fa-li {
+    position: absolute;
+    left: -2.14285714em;
+    width: 2.14285714em;
+    top: 0.14285714em;
+    text-align: center;
+}
+
+.fa-li.fa-lg {
+    left: -1.85714286em;
+}
+
+  .fa-border {
+    padding: .2em .25em .15em;
+    border: solid 0.08em #eeeeee;
+    border-radius: .1em;
+}
+
+.pull-right {
+    float: right;
+}
+
+.pull-left {
+    float: left;
+}
+
+.fa.pull-left {
+    margin-right: .3em;
+}
+
+.fa.pull-right {
+    margin-left: .3em;
+}
+
+  .fa-spin {
+    -webkit-animation: fa-spin 2s infinite linear;
+    animation: fa-spin 2s infinite linear;
+}
+
+.fa-pulse {
+    -webkit-animation: fa-spin 1s infinite steps(8);
+    animation: fa-spin 1s infinite steps(8);
+}
+
+@-webkit-keyframes fa-spin {
+    0% {
+        -webkit-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+    100% {
+        -webkit-transform: rotate(359deg);
+        transform: rotate(359deg);
+    }
+}
+
+@keyframes fa-spin {
+    0% {
+        -webkit-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+    100% {
+        -webkit-transform: rotate(359deg);
+        transform: rotate(359deg);
+    }
+}
+
+  .fa-rotate-90 {
+    filter: progid: DXImageTransform.Microsoft.BasicImage(rotation=1);
+    -webkit-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    transform: rotate(90deg);
+}
+
+.fa-rotate-180 {
+    filter: progid: DXImageTransform.Microsoft.BasicImage(rotation=2);
+    -webkit-transform: rotate(180deg);
+    -ms-transform: rotate(180deg);
+    transform: rotate(180deg);
+}
+
+.fa-rotate-270 {
+    filter: progid: DXImageTransform.Microsoft.BasicImage(rotation=3);
+    -webkit-transform: rotate(270deg);
+    -ms-transform: rotate(270deg);
+    transform: rotate(270deg);
+}
+
+.fa-flip-horizontal {
+    filter: progid: DXImageTransform.Microsoft.BasicImage(rotation=0, mirror=1);
+    -webkit-transform: scale(-1, 1);
+    -ms-transform: scale(-1, 1);
+    transform: scale(-1, 1);
+}
+
+.fa-flip-vertical {
+    filter: progid: DXImageTransform.Microsoft.BasicImage(rotation=2, mirror=1);
+    -webkit-transform: scale(1, -1);
+    -ms-transform: scale(1, -1);
+    transform: scale(1, -1);
+}
+
+:root .fa-rotate-90,
+:root .fa-rotate-180,
+:root .fa-rotate-270,
+:root .fa-flip-horizontal,
+:root .fa-flip-vertical {
+    filter: none;
+}
+
+  .fa-stack {
+    position: relative;
+    display: inline-block;
+    width: 2em;
+    height: 2em;
+    line-height: 2em;
+    vertical-align: middle;
+}
+
+.fa-stack-1x,
+.fa-stack-2x {
+    position: absolute;
+    left: 0;
+    width: 100%;
+    text-align: center;
+}
+
+.fa-stack-1x {
+    line-height: inherit;
+}
+
+.fa-stack-2x {
+    font-size: 2em;
+}
+
+.fa-inverse {
+    color: #ffffff;
+}
+
+  .fa-circle-o-notch:before {
+    content: '\f003';
+}
+
+ .fa-bullhorn:before {
+    content: '\f004';
+}
+
+ .fa-home:before {
+    content: '\f005';
+}
+
+ .fa-ticket:before {
+    content: '\f006';
+}
+
+ .fa-circle:before {
+    content: '\f007';
+}
+
+ .fa-pencil:before {
+    content: '\f008';
+}
+
+ .fa-exclamation-triangle:before {
+    content: '\f009';
+}
+
+ .fa-exclamation:before {
+    content: '\f00a';
+}
+
+ .fa-lock:before {
+    content: '\f00b';
+}
+
+ .fa-apple:before {
+    content: '\f00c';
+}
+
+ .fa-spinner:before {
+    content: '\f00d';
+}
+
+ .fa-question-circle:before {
+    content: '\f00e';
+}
+
+ .fa-thumbs-up:before {
+    content: '\f00f';
+}
+
+ .fa-trash:before {
+    content: '\f010';
+}
+
+ .fa-mobile:before {
+    content: '\f011';
+}
+
+ .fa-caret-up:before {
+    content: '\f012';
+}
+
+ .fa-caret-down:before {
+    content: '\f013';
+}
+
+ .fa-check:before {
+    content: '\f014';
+}
+
+ .fa-plus:before {
+    content: '\f015';
+}
+
+ .fa-graduation-cap:before {
+    content: '\f016';
+}
+
+ .fa-star:before {
+    content: '\f017';
+}
+
+ .fa-search:before {
+    content: '\f018';
+}
+
+ .fa-chevron-up:before {
+    content: '\f019';
+}
+
+ .fa-chevron-down:before {
+    content: '\f01a';
+}
+
+ .fa-bell:before {
+    content: '\f01b';
+}
+
+ .fa-list-ol:before {
+    content: '\f01d';
+}
+
+ .fa-ellipsis-v:before {
+    content: '\f01e';
+}
+
+ .fa-ellipsis-h:before {
+    content: '\f01f';
+}
+
+ .fa-cog:before {
+    content: '\f020';
+}
+
+ .fa-user:before {
+    content: '\f021';
+}
+
+ .fa-bars:before {
+    content: '\f022';
+}
+
+ .fa-play:before {
+    content: '\f023';
+}
+
+ .fa-cloud-download:before {
+    content: '\f024';
+}
+
+ .fa-comment:before {
+    content: '\f025';
+}
+
+ .fa-download:before {
+    content: '\f026';
+}
+
+ .fa-chevron-left:before {
+    content: '\f027';
+}
+
+ .fa-chevron-right:before {
+    content: '\f028';
+}
+
+ .fa-university:before {
+    content: '\f029';
+}
+
+ .fa-plug:before {
+    content: '\f02a';
+}
+
+ .fa-clock-o:before {
+    content: '\f02b';
+}
+
+ .fa-link:before {
+    content: '\f02c';
+}
+
+ .fa-bookmark:before {
+    content: '\f02d';
+}
+
+ .fa-print:before {
+    content: '\f02e';
+}
+
+ .fa-globe:before {
+    content: '\f02f';
+}
+
+ .fa-arrow-up:before {
+    content: '\f030';
+}
+
+ .fa-arrow-down:before {
+    content: '\f031';
+}
+
+ .fa-space-shuttle:before {
+    content: '\f032';
+}
+
+ .fa-angle-double-left:before {
+    content: '\f033';
+}
+
+ .fa-angle-double-right:before {
+    content: '\f034';
+}
+
+ .fa-desktop:before {
+    content: '\f035';
+}
+
+ .fa-expand:before {
+    content: '\f036';
+}
+
+ .fa-times-circle:before {
+    content: '\f037';
+}
+
+ .fa-pause:before {
+    content: '\f038';
+}
+
+ .fa-calendar:before {
+    content: '\f039';
+}
+
+ .fa-play-circle:before {
+    content: '\f03a';
+}
+
+ .fa-volume-up:before {
+    content: '\f03b';
+}
+
+ .fa-users:before {
+    content: '\f03c';
+}
+
+ .fa-th-list:before {
+    content: '\f03d';
+}
+
+ .fa-times:before {
+    content: '\f03e';
+}
+
+ .fa-plus-circle:before {
+    content: '\f03f';
+}
+
+ .fa-check-circle:before {
+    content: '\f040';
+}
+
+ .fa-info-circle:before {
+    content: '\f041';
+}
+
+ .fa-list:before {
+    content: '\f042';
+}
+
+ .fa-pencil-square-o:before {
+    content: '\f043';
+}
+
+ .fa-share:before {
+    content: '\f044';
+}
+
+ .fa-folder-open:before {
+    content: '\f045';
+}
+
+ .fa-bar-chart:before {
+    content: '\f046';
+}
+
+ .fa-key:before {
+    content: '\f047';
+}
+
+ .fa-thumbs-o-up:before {
+    content: '\f048';
+}
+
+ .fa-thumbs-o-down:before {
+    content: '\f049';
+}
+
+ .fa-tasks:before {
+    content: '\f04a';
+}
+
+ .fa-filter:before {
+    content: '\f04b';
+}
+
+ .fa-arrows-alt:before {
+    content: '\f04c';
+}
+
+ .fa-floppy-o:before {
+    content: '\f04d';
+}
+
+ .fa-square:before {
+    content: '\f04e';
+}
+
+ .fa-shopping-cart:before {
+    content: '\f04f';
+}
+
+ .fa-list-ul:before {
+    content: '\f050';
+}
+
+ .fa-sort:before {
+    content: '\f051';
+}
+
+ .fa-bell-o:before {
+    content: '\f052';
+}
+
+ .fa-circle-o:before {
+    content: '\f053';
+}
+
+ .fa-question:before {
+    content: '\f054';
+}
+
+ .fa-file-text:before {
+    content: '\f055';
+}
+
+ .fa-archive:before {
+    content: '\f056';
+}
+
+ .fa-history:before {
+    content: '\f057';
+}
+
+ .fa-bell-slash-o:before {
+    content: '\f058';
+}
+
+ .fa-toggle-off:before {
+    content: '\f059';
+}
+
+ .fa-toggle-on:before {
+    content: '\f05a';
+}
+
+
+.sr-only {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    border: 0
+}
+
+.sr-only-focusable:active,
+.sr-only-focusable:focus {
+    position: static;
+    width: auto;
+    height: auto;
+    margin: 0;
+    overflow: visible;
+    clip: auto
+}
+

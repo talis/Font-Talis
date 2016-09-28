@@ -1,0 +1,1 @@
+!function(){var e=[];window.FortAwesomeConfig={autoA11y:{enabled:!0},asyncLoading:{enabled:!0},reporting:{enabled:!1},useUrl:"[PUT YOUR URL HERE]",code:"eb3cdc28",familyName:"Fonttalis",prefix:"fa",testString:"&",typefaces:e}}();
