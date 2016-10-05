@@ -5,7 +5,7 @@
     "jb@talis.com"
   ],
   "description": "A customised version of Font Awesome 4.4.3 to only provide what is needed",
-  "main": "index.html",
+  "main": "demo.html",
   "license": "MIT",
   "private": true,
   "ignore": [
