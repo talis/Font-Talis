@@ -4,7 +4,7 @@
   "authors": [
     "jb@talis.com"
   ],
-  "description": "",
+  "description": "A customised version of Font Awesome 4.4.3 to only provide what is needed",
   "main": "index.html",
   "license": "MIT",
   "private": true,
