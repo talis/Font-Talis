@@ -543,6 +543,10 @@
     content: '\f05a';
 }
 
+ .fa-sidebar:before {
+    content: '\f05b';
+}
+
 
 .sr-only {
     position: absolute;
