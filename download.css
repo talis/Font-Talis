@@ -543,8 +543,12 @@
     content: '\f05a';
 }
 
- .fa-sidebar:before {
+ .fa-sidebar-hide:before {
     content: '\f05b';
+}
+
+ .fa-sidebar-show:before {
+    content: '\f05c';
 }
 
 
