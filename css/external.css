@@ -490,6 +490,14 @@
       content: '\f05e';
   }
 
+  .fa-chevron-left:before {
+      content: '\f05f';
+  }
+
+  .fa-chevron-right:before {
+      content: '\f060';
+  }
+
 
 .sr-only {
     position: absolute;
