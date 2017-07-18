@@ -502,6 +502,14 @@
       content: '\f061';
   }
 
+  .fa-level-up:before {
+      content: '\f062';
+  }
+
+  .fa-level-down:before {
+      content: '\f063';
+  }
+
 
 .sr-only {
     position: absolute;
