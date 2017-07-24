@@ -504,6 +504,18 @@
       content: '\f063';
   }
 
+  .fa-exclamation:before {
+      content: '\f064';
+  }
+
+  .fa-question:before {
+      content: '\f065';
+  }
+
+  .fa-info:before {
+      content: '\f066';
+  }
+
 
 .sr-only {
     position: absolute;
