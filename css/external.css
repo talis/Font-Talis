@@ -522,6 +522,10 @@
       content: '\f066';
   }
 
+  .fa-folder:before {
+      content: '\f067';
+  }
+
 
 .sr-only {
     position: absolute;
