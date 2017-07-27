@@ -3,7 +3,7 @@
 
 @mixin fa-icon() {
   display: inline-block;
-  font: normal normal normal #{$fa-font-size-base}/#{$fa-line-height-base} "Fonttalis2";
+  font: normal normal normal #{$fa-font-size-base}/#{$fa-line-height-base} "Fonttalis";
   font-size: inherit;
   text-rendering: auto;
   -webkit-font-smoothing: antialiased;

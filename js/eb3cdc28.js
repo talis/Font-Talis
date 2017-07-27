@@ -14,8 +14,8 @@
       enabled: false
     },
     useUrl: '[YOUR HOST HERE]',
-    code: '7a04e5a0',
-    familyName: 'Fonttalis2',
+    code: 'eb3cdc28',
+    familyName: 'Fonttalis',
     prefix: 'fa',
     testString: '\u0026',
     typefaces: typefaces

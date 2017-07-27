@@ -1,6 +1,6 @@
 # Your Fort Awesome Kit
 
-You've downloaded the kit named FontTalis2. Included are all the files
+You've downloaded the kit named FontTalis. Included are all the files
 you need to use your kit on the web or as you're designing.
 
 - - -
