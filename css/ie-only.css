@@ -524,6 +524,10 @@
       content: '\f068';
   }
 
+  .fa-cloud-upload:before {
+      content: '\f069';
+  }
+
 
 .sr-only {
     position: absolute;
