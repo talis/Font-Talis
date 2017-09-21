@@ -1,0 +1,19 @@
+{
+  "name": "font-talis",
+  "homepage": "https://github.com/talis/Font-Talis",
+  "authors": [
+    "jb@talis.com"
+  ],
+  "description": "A customised version of Font Awesome 4.4.3 to only provide what is needed",
+  "main": "demo.html",
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "version": "0.0.1"
+}
