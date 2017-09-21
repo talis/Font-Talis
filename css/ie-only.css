@@ -468,14 +468,6 @@
       content: '\f05a';
   }
 
-  .fa-sidebar-hide:before {
-      content: '\f05b';
-  }
-
-  .fa-sidebar-show:before {
-      content: '\f05c';
-  }
-
   .fa-compress:before {
       content: '\f05d';
   }
@@ -530,6 +522,14 @@
 
   .fa-dropbox:before {
       content: '\f06a';
+  }
+
+  .fa-sidebar-hide:before {
+      content: '\f06b';
+  }
+
+  .fa-sidebar-show:before {
+      content: '\f06c';
   }
 
 
